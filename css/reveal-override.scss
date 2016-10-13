@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Catamaran:400,700);
-@import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(//fontlibrary.org/face/warenhaus-typenhebel);
 
 .reveal {
     font-family: "Open Sans Condensed", sans-serif;
@@ -84,11 +84,11 @@
     }
 
     a {
-        font-family: "Special Elite", monospace !important;
+        font-family: "WarenhausTypenhebelStandard", monospace !important;
     }
 
     code {
-        font-family: "Special Elite", monospace !important;
+        font-family: "WarenhausTypenhebelStandard", monospace !important;
         color: black !important;
         text-shadow: none;
         text-transform: none;
@@ -105,7 +105,7 @@
         position: absolute;
         color: red !important;
         font-size: 6em !important;
-        font-family: "Special Elite" !important;
+        font-family: "WarenhausTypenhebelStandard" !important;
         transform: rotate(-45deg);
         position:absolute;
         left:50%;

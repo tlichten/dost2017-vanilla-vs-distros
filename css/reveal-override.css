@@ -62,6 +62,7 @@
 }
 .reveal a {
   font-family: "WarenhausTypenhebelStandard", monospace !important;
+  white-space: nowrap;
 }
 .reveal code {
   font-family: "WarenhausTypenhebelStandard", monospace !important;

@@ -1,3 +1,10 @@
+/* Some potential fonts for h1-6
+@import url(//fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(//fonts.googleapis.com/css?family=Philosopher:400,700);
+@import url(//fonts.googleapis.com/css?family=Catamaran:400,700);
+@import url(//fontlibrary.org/face/unique);
+@import url(//fontlibrary.org/face/exo);
+*/
 @import url(//fonts.googleapis.com/css?family=Catamaran:400,700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(//fontlibrary.org/face/warenhaus-typenhebel);
@@ -37,6 +44,8 @@
 
     h1 {
         font-size: 5em;
+	/* change spacing for Catamaran */
+	letter-spacing: -3px;
     }
 
     h2 {

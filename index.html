@@ -112,6 +112,37 @@
     <script src="reveal.js/lib/js/head.min.js"></script>
     <script src="reveal.js/js/reveal.js"></script>
     <script>
+        // define charts ... here an example
+        // to show this chart use e.g. '<iframe style="width:320px; height:180px;overflow:hidden;margin:10px 5px auto auto;" scrolling="no" id="chart-frame-0" data-chart></iframe>' in markdown
+        var mycharts = [
+        {
+            selector : "#chart-frame-0",
+            type : "doughnut",
+            data : [
+                {
+                    value: 300,
+                    color:"#F7464A",
+                    highlight: "#FF5A5E",
+                    label: "Red"
+                },
+                {
+                    value: 50,
+                    color: "#46BFBD",
+                    highlight: "#5AD3D1",
+                    label: "Green"
+                },
+                {
+                    value: 100,
+                    color: "#FDB45C",
+                    highlight: "#FFC870",
+                    label: "Yellow"
+                }
+            ],
+            options : {
+               responsive:true
+            }
+        }];
+
         // Full list of configuration options available here:
         // https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
@@ -141,6 +172,10 @@
                  40: 'next',
                  38: 'prev'
             },
+
+            chart : {
+               items : mycharts
+            },
         
             // Optional libraries used to extend on reveal.js
             dependencies: [
@@ -150,7 +185,9 @@
                 { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                 { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                 { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-                { src: 'reveal.js-menu/menu.js', async: true, condition: function() { return !!document.body.classList; } }
+                { src: 'reveal.js-menu/menu.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: 'reveal-chart/plugin/chartjs/Chart.min.js'},
+                { src: 'reveal-chart/plugin/chartjs/charted.js'}
             ]
         });
     </script>

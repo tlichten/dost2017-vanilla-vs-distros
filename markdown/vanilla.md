@@ -1,6 +1,8 @@
+<!-- OpenStack -->
 <!-- .slide: data-background-image="images/openstack-cloud-software-vertical-large.png" data-background-size="auto 90%" -->
 
 
+<!-- Slide -->
 Core Services
 <table>
 <tr>
@@ -38,4 +40,57 @@ Optional Services
     <td><img src="images/openstack/trove.svg"></td>
 </tr>
 </table>
+
+
+<!-- Slide -->
+## Maturity
+
+
+<!-- Slide -->
+## Automation 
+
+
+<!-- Slide -->
+## Support ?
+
+
+<!-- Ceph -->
+<!-- .slide: data-background-image="images/ceph-logo.svg" data-background-size="auto 90%" -->
+
+
+<!-- Slide -->
+## Maturity
+
+
+<!-- Slide -->
+## Automation 
+
+
+<!-- Slide -->
+## Support ?
+
+
+<!-- Slide -->
+What are the 
+## Alternatives 
+### to Vanilla ?
+
+
+<!-- Slide -->
+Select a 
+### Distribution
+
+<img src="images/distros-all.svg" alt="Red Hat, SUSE, Mirantis, Canonical" style="width:90%;">
+
+
+<!-- Slide -->
+Leaves one question:
+
+What is the 
+
+### prefrered 
+
+## Distribution
+
+of your organization?
 

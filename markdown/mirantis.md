@@ -1,19 +1,23 @@
 <!-- .slide: data-background-image="images/mirantis-logo.svg" data-background-size="auto 90%" -->
 
 
-Core Services
-<table>
-<tr>
-    <td><img src="images/openstack/swift.svg"    ></td>
-    <td><img src="images/openstack/keystone.svg" ></td>
-    <td><img src="images/openstack/nova.svg"     ></td>
-    <td><img src="images/openstack/neutron.svg"  ></td>
-    <td><img src="images/openstack/cinder.svg"   ></td>
-    <td><img src="images/openstack/glance.svg"   ></td>
-</tr>
-</table>
+<!-- Slide -->
+# 1
+### OpenStack
 
-Optional Services
+
+<!-- Slide -->
+### Product
+
+
+<!-- Slide -->
+### Product Cycle
+
+
+<!-- Slide -->
+### Openstack Support
+
+All Core Services plus
 
 <table>
 <tr>
@@ -41,3 +45,22 @@ Optional Services
     <td><img src="images/openstack/legend.svg"></td>
 </tr>
 </table>
+
+
+<!-- Slide -->
+### Support model
+
+
+<!-- Slide -->
+### Deployment
+
+
+<!-- Slide -->
+Additionally
+### Recommended
+
+
+<!-- Slide -->
+# 2
+### Ceph
+

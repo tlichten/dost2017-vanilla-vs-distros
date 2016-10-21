@@ -3,19 +3,26 @@
 
 
 <!-- Slide -->
-Core Services
+Core Services: Higly `mature` and widely adopted.
+
 <table>
 <tr>
     <td><img src="images/openstack/swift.svg"    ></td>
     <td><img src="images/openstack/keystone.svg" ></td>
     <td><img src="images/openstack/nova.svg"     ></td>
+</tr>
+<tr>
     <td><img src="images/openstack/neutron.svg"  ></td>
     <td><img src="images/openstack/cinder.svg"   ></td>
     <td><img src="images/openstack/glance.svg"   ></td>
 </tr>
 </table>
 
-Optional Services
+
+<!-- Slide -->
+Optional Services:
+
+Lower level of `maturity` and `adoption`!
 
 <table>
 <tr>
@@ -40,18 +47,61 @@ Optional Services
     <td><img src="images/openstack/trove.svg"></td>
 </tr>
 </table>
+Note: may add missing services Zaqar (Messaging Services), Congress (Governance)
 
 
 <!-- Slide -->
-## Maturity
+What about Automation?
+
+###### Write your own? <!-- .element class="fragment" data-fragment-index="1"-->
+
+Sure! <!-- .element class="fragment" data-fragment-index="2"-->
+
+<span class="fragment" data-fragment-index="3">
+If you prefer the `epic fail`!
+</span>
 
 
 <!-- Slide -->
-## Automation 
+What does the 
+
+### OpenStack Community?
+
+`Ansible, Puppet, Chef`.
 
 
 <!-- Slide -->
-## Support ?
+But what about 
+
+`Fuel and Juju`?
+
+
+<!-- Slide -->
+May an option if you use
+
+### Mirantis 
+`Fuel`
+
+or 
+
+### Canonical
+`Juju`
+
+<span class="fragment"> `96%` of the code is from one `company` </span>
+
+
+<!-- Slide -->
+`But even then:`
+
+The community code may not fit your needs. <!-- .element class="fragment" data-fragment-index="1"-->
+
+It may takes quite some time to make it work. <!-- .element class="fragment" data-fragment-index="2"-->
+
+You may stuck with a release longer than expected. <!-- .element class="fragment" data-fragment-index="3"-->
+
+<br>
+<span class="fragment" data-fragment-index="4"> `Very likely` means: <br> Lot of extra work for you! </span>
+Note: e.g. upgrade or skip of releases
 
 
 <!-- Ceph -->
@@ -59,15 +109,33 @@ Optional Services
 
 
 <!-- Slide -->
-## Maturity
+Most `mature`:
+
+### RBD
+block storage
+### RadosGW
+Swift/S3 oject store
+
 
 
 <!-- Slide -->
-## Automation 
+Less mature:
+###### CephFS
 
 
 <!-- Slide -->
-## Support ?
+What about Automation?
+
+<span class="fragment" data-fragment-index="1"> First: `Check above!` </span>
+
+<br>
+Then choose from <!-- .element class="fragment" data-fragment-index="2"-->
+
+`ceph-deploy` <!-- .element class="fragment" data-fragment-index="2"-->
+
+or <!-- .element class="fragment" data-fragment-index="2"-->
+
+`Ansible, Puppet, Chef` <!-- .element class="fragment" data-fragment-index="2"-->
 
 
 <!-- Slide -->

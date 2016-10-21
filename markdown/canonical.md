@@ -7,11 +7,53 @@
 
 
 <!-- Slide -->
-### Product
+### Ubuntu
+### OpenStack 
+with
+
+<img src="images/openstack/newton-logo.png" style="width:15%;">
+
+based on
+
+`Ubuntu 16.04 LTS`
 
 
 <!-- Slide -->
-### Product Cycle
+### Kernel
+4.4-based
+
+<br> 
+### Hypervisor <!-- .element class="fragment" data-fragment-index="1"-->
+KVM <!-- .element class="fragment" data-fragment-index="1"-->
+
+Hyper-V <!-- .element class="fragment" data-fragment-index="1"-->
+
+LXD <!-- .element class="fragment" data-fragment-index="1"-->
+
+
+<!-- Slide -->
+Let's get one thing out of the way!
+<br>
+<br>
+### "Canonical" OpenStack <!-- .element class="fragment" data-fragment-index="2"-->
+(enterprise version) <!-- .element class="fragment" data-fragment-index="5"-->
+## ≠ <!-- .element class="fragment" data-fragment-index="3"-->
+### Ubuntu OpenStack <!-- .element class="fragment" data-fragment-index="4"-->
+(community version) <!-- .element class="fragment" data-fragment-index="5"-->
+
+
+<!-- Slide -->
+While probably most
+
+`Community Developers`
+
+using Ubuntu, make use of <!-- .element class="fragment" data-fragment-index="1"-->
+
+`DevStack, Puppet, Ansible, Chef` <!-- .element class="fragment" data-fragment-index="1"-->
+
+the enterprise version uses<!-- .element class="fragment" data-fragment-index="2"-->
+
+###### JuJu and MaaS <!-- .element class="fragment" data-fragment-index="2"-->
 
 
 <!-- Slide -->
@@ -39,8 +81,8 @@ All Core Services plus
     <td><img src="images/openstack/sahara-techpreview.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/tempest-notsupported.svg"></td>
     <td><img src="images/openstack/trove-techpreview.svg"></td>
-    <td></td>
     <td></td>
     <td><img src="images/openstack/legend.svg"></td>
 </tr>
@@ -48,19 +90,99 @@ All Core Services plus
 
 
 <!-- Slide -->
-### Support model
+### Life Cycle 
+New downstream version with 
+
+###### every upstream release
 
 
 <!-- Slide -->
-### Deployment
+Additionally recommended
+
+### Landscape
+for
+
+system management, security compliance and audit
 
 
 <!-- Slide -->
-Additionally
-### Recommended
+### Support
+###### 5 years
+For versions released with LTS
+###### 1,5 years
+For 3 following versions (e.g. N, O, P)
+###### 3 years
+OpenStack release of next LTS in former version
+Note: quite complex matrix
+
+
+<!-- Slide -->
+### Pricing
+
+node/year
+
+VM/hour
+
+OpenStack regions (S/M/L)
+
+<br>
+##### depending on:
+
+support for business hours, 24x7, managed
 
 
 <!-- Slide -->
 # 2
 ### Ceph
+
+
+<!-- Slide -->
+### Ubuntu Advantage Storage
+
+based on 
+
+### Jewel
+
+with <!-- .element class="fragment" data-fragment-index="1"-->
+
+`Ubuntu Performance Dashboard` <!-- .element class="fragment" data-fragment-index="1"-->
+
+
+<!-- Slide -->
+## Pricing
+
+Subscription
+
+based on:
+
+used capacity
+Note: Yearly subscriptions?
+
+
+<!-- Slide -->
+# 3
+### Potential Issues
+
+
+<!-- Slide -->
+### Landscape
+and <!-- .element class="fragment" data-fragment-index="1"-->
+### Ubuntu Performance Dashboard <!-- .element class="fragment" data-fragment-index="1"-->
+(for Ceph) <!-- .element class="fragment" data-fragment-index="1"-->
+
+have a <!-- .element class="fragment" data-fragment-index="2"-->
+
+`non Open Source license` <!-- .element class="fragment" data-fragment-index="2"-->
+
+
+<!-- Slide -->
+## Kernel
+At leat <!-- .element class="fragment" data-fragment-index="1"-->
+
+controversial <!-- .element class="fragment" data-fragment-index="1"-->
+
+integration of <!-- .element class="fragment" data-fragment-index="1"-->
+
+## ZFS <!-- .element class="fragment" data-fragment-index="2"-->
+in 16.04 <!-- .element class="fragment" data-fragment-index="2"-->
 

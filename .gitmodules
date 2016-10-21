@@ -7,6 +7,6 @@
 [submodule "reveal.js-menu"]
 	path = reveal.js-menu
 	url = git://github.com/denehyg/reveal.js-menu
-[submodule "reveal-chart"]
-	path = reveal-chart
-	url = https://gitlab.com/dvenkatsagar/reveal-chart.git
+[submodule "reveal.js-plugins"]
+	path = reveal.js-plugins
+	url = https://github.com/rajgoel/reveal.js-plugins.git

@@ -284,7 +284,6 @@ of the distributions
 ## Ceph
 
 
-<!-- Slide -->
 ##### Commits
 <sup>ceph.git, 2016/10/20<sup>
 <canvas class="doughnut-reveal" data-chart="doughnut" width="600" height="600">
@@ -305,6 +304,7 @@ of the distributions
      ]
  },
  "options": {
+     "animateScale": "true",
      "responsive": "true",
      "legend": {
      	"position": "bottom",
@@ -316,6 +316,7 @@ of the distributions
 }
 -->
 </canvas>
+
 Note: RH numbers are RH+Inktank, Canonical 28, SUSE numbers fixed between DTAG and SUSE
 
 

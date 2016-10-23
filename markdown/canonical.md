@@ -177,7 +177,7 @@ have a <!-- .element class="fragment" data-fragment-index="2"-->
 
 <!-- Slide -->
 ## Kernel
-At leat <!-- .element class="fragment" data-fragment-index="1"-->
+At least <!-- .element class="fragment" data-fragment-index="1"-->
 
 controversial <!-- .element class="fragment" data-fragment-index="1"-->
 

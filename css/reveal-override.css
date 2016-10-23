@@ -5,11 +5,12 @@
 @import url(//fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(//fontlibrary.org/face/unique);
 @import url(//fontlibrary.org/face/exo);
+
+@import url(//fontlibrary.org/face/cmu-typewriter);
 */
 @import url(//fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
-@import url(//fontlibrary.org/face/cmu-typewriter);
 .reveal {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: normal;

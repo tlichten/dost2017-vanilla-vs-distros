@@ -1,4 +1,5 @@
-<!-- .slide: data-background-image="images/suse-logo.svg" data-background-size="90% auto" -->
+<!-- .slide: data-background-image="images/suse_logo_full_epsexport.svg" data-background-size="90% auto" -->
+Note: SUSE start
 
 
 <!-- Slide -->
@@ -8,29 +9,30 @@
 
 <!-- Slide -->
 ###### SUSE 
-###### OpenStack Cloud 6
+###### OpenStack Cloud 7
 with
 
-<img src="images/openstack/openstack-liberty-logo.png" style="width:40%;">
+<img src="images/openstack/newton-logo.png" style="width:15%;">
 
 based on
 
-`SLES 12 SP1`
+`SLES 12 SP2`
 
 
 <!-- Slide -->
 ### Kernel
-3.12-based
+4.4-based
 
 <br> 
 ### Hypervisor <!-- .element class="fragment" data-fragment-index="1"-->
-KVM, Xen <!-- .element class="fragment" data-fragment-index="1"-->
+KVM, Xen<!-- .element class="fragment" data-fragment-index="1"--> 
 
-Hyper-V, VMWare vSphere <!-- .element class="fragment" data-fragment-index="1"-->
+Hyper-V, VMWare vSphere<!-- .element class="fragment" data-fragment-index="1"-->
 
 IBM z/VM <!-- .element class="fragment" data-fragment-index="1"-->
 
 Docker <!-- .element class="fragment" data-fragment-index="1"-->
+
 Note: Kernel API/ABI compatibility
 
 
@@ -38,7 +40,7 @@ Note: Kernel API/ABI compatibility
 Deployment
  
 ## Crowbar 
-(`v3.0`)
+(`v4.0`)
 
 and 
 
@@ -53,7 +55,7 @@ All Core Services plus
 
 <table>
 <tr>
-    <td><img src="images/openstack/barbican-notsupported.svg"></td>
+    <td><img src="images/openstack/barbican-techpreview.svg"></td>
     <td><img src="images/openstack/ceilometer.svg"></td>
     <td><img src="images/openstack/designate-techpreview.svg"></td>
     <td><img src="images/openstack/fuel-notsupported.svg"></td>
@@ -62,7 +64,7 @@ All Core Services plus
     <td><img src="images/openstack/heat.svg"></td>
     <td><img src="images/openstack/horizon.svg"></td>
     <td><img src="images/openstack/ironic-techpreview.svg"></td>
-    <td><img src="images/openstack/magnum-notsupported.svg"></td>
+    <td><img src="images/openstack/magnum.svg"></td>
 </tr>
 <tr>
     <td><img src="images/openstack/manila.svg"></td>
@@ -87,7 +89,8 @@ New downstream version with
 
 Next: 
  
-Newton
+P-release
+Note: every 2nd may no issue in enterprise setups, you don't switch that easily production.
 
 
 <!-- Slide -->
@@ -97,7 +100,6 @@ Additionally recommended
 ### SUSE Manager
 ### SLES HA extension 
 (for KVM/Xen compute nodes)
- 
 
 
 <!-- Slide -->
@@ -105,7 +107,7 @@ Additionally recommended
 
 at least
 ###### 27 months
-(till 15 Apr 2018) 
+after GA
 
 
 <!-- Slide -->
@@ -157,6 +159,7 @@ or
 Tech preview in v3
 ###### iSCSI
 to connect Windows and VMWare
+Note: SES4 - CephFS Use Cases and NFS-Ganesha tech preview
 
 
 <!-- Slide -->
@@ -170,6 +173,7 @@ with 4 OSDs, 3/5 MONs, Admin/Deploy node
 
 priority support included
 Note: release every 6 months, support for N and N-1, longer cycles on request
+
 
 <!-- Slide -->
 # 3

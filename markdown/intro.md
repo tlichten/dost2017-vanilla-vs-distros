@@ -64,11 +64,10 @@ CephFS, SDN, Hypervisor, API versions ... <!-- .element class="fragment" data-fr
 
 <!-- Slide -->
 Operational requirements
+### CI/CD <!-- .element class="fragment" -->
 ### Automation <!-- .element class="fragment" -->
 ### Management <!-- .element class="fragment" -->
-Release Cycles <!-- .element class="fragment" -->
-
-Update/Upgrade <!-- .element class="fragment" -->
+Release Cycles, Update/Upgrade <!-- .element class="fragment" -->
 
 SLAs <!-- .element class="fragment" -->
 
@@ -77,7 +76,6 @@ SLAs <!-- .element class="fragment" -->
 
 <!-- Slide -->
 But also
-### CI/CD <!-- .element class="fragment" -->
 ### Cost & Efficency <!-- .element class="fragment" -->
 ### Legal topics <!-- .element class="fragment" -->
 
@@ -142,13 +140,11 @@ Review! <!-- .element class="fragment" -->
 <!-- Slide -->
 But what then?
 
-Open source `developers` do either:
+<span class="fragment" data-fragment-index="0">Open source `developers` do either: </span>
 
-what they are <!-- .element class="fragment" data-fragment-index="1"--> `interested` <!-- .element class="fragment" data-fragment-index="1"--> in <!-- .element class="fragment" data-fragment-index="1"-->
+<span class="fragment" data-fragment-index="1"> what they are `interested` in </span>
 
-or <!-- .element class="fragment" data-fragment-index="2"-->
-
-what they are <!-- .element class="fragment" data-fragment-index="2"--> `payed` <!-- .element class="fragment" data-fragment-index="2"--> for. <!-- .element class="fragment" data-fragment-index="2"-->
+<span class="fragment" data-fragment-index="2"> or <br> what they are `payed` for. </span>
 
 
 <!-- Slide -->
@@ -156,7 +152,7 @@ Therefore
 
 ### Be prepared: 
 
-At the end <!-- .element class="fragment" data-fragment-index="1"--> `you` <!-- .element class="fragment" data-fragment-index="1"--> may <!-- .element class="fragment" data-fragment-index="1"-->
+<span class="fragment" data-fragment-index="0">At the end `you` may </span>
 
 fix or implement it! <!-- .element class="fragment" data-fragment-index="1"-->
 

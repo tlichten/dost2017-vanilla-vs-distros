@@ -132,9 +132,11 @@ Participate in the
 
 ### community
 
-Report your bugs and missing features. <!-- .element class="fragment" -->
+Report your bugs and missing features! <!-- .element class="fragment" -->
 
 Give feedback! <!-- .element class="fragment" -->
+
+Review! <!-- .element class="fragment" -->
 
 
 <!-- Slide -->

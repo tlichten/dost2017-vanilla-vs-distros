@@ -4,9 +4,6 @@
 [submodule "qrcodejs"]
 	path = qrcodejs
 	url = https://github.com/davidshimjs/qrcodejs
-[submodule "reveal.js-menu"]
-	path = reveal.js-menu
-	url = https://github.com/denehyg/reveal.js-menu
 [submodule "reveal.js-plugins"]
 	path = reveal.js-plugins
 	url = https://github.com/dalgaaf/reveal.js-plugins

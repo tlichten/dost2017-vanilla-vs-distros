@@ -76,7 +76,7 @@
                  data-separator-vertical="^\n\n"
                  data-separator-notes="^Note:">
         </section>
-        <section id="qrcode" data-menu-title="QR code">
+        <section id="qrcode">
           <div class="qrcode" id="qrcode-talk"/>
           <p><a href="https://dalgaaf.github.io/openstack-summit-barcelona" target="_blank"
                 id="talk">https://dalgaaf.github.io/openstack-summit-barcelona</a></p>
@@ -148,14 +148,6 @@
             theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
             transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
         
-            menu: {
-                themes: false,
-                transitions: false,
-                openButton: false,
-                openSlideNumber: true,
-                markers: true
-            },
-        
             keyboard: {
                  40: 'next',
                  38: 'prev'
@@ -169,7 +161,6 @@
                 { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                 { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                 { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-                { src: 'reveal.js-menu/menu.js', async: true, condition: function() { return !!document.body.classList; } },
                 { src: 'reveal.js-plugins/chart/Chart.min.js' },               
                 { src: 'reveal.js-plugins/chart/csv2chart.js' }
             ]

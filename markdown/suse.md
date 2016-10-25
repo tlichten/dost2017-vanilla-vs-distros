@@ -142,7 +142,7 @@ based on
 
 with 
 
-`OpenAttic`
+`Calamari`
 
 
 <!-- Slide -->

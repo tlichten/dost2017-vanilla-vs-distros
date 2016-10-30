@@ -43,7 +43,7 @@ Before you stuck with one!
 
 
 <!-- Slide -->
-Another indicator:
+Another may helpful indicator:
 
 ### Some statistics
 

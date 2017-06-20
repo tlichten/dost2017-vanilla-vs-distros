@@ -26,24 +26,27 @@ Lower level of `maturity` and `adoption`!
 
 <table>
 <tr>
+    <td><img src="images/openstack/aodh.svg"></td>
     <td><img src="images/openstack/barbican.svg"></td>
     <td><img src="images/openstack/ceilometer.svg"></td>
     <td><img src="images/openstack/designate.svg"></td>
-    <td><img src="images/openstack/fuel.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/fuel.svg"></td>
     <td><img src="images/openstack/heat.svg"></td>
     <td><img src="images/openstack/horizon.svg"></td>
     <td><img src="images/openstack/ironic.svg"></td>
-    <td><img src="images/openstack/magnum.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/magnum.svg"></td>
     <td><img src="images/openstack/manila.svg"></td>
     <td><img src="images/openstack/mistral.svg"></td>
-    <td><img src="images/openstack/murano.svg"></td>
-    <td><img src="images/openstack/sahara.svg"></td>
+    <td><img src="images/openstack/monasca.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/murano.svg"></td>
+    <td><img src="images/openstack/sahara.svg"></td>
+    <td><img src="images/openstack/tempest.svg"></td>
     <td><img src="images/openstack/trove.svg"></td>
 </tr>
 </table>

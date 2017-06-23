@@ -11,7 +11,7 @@
 ### OpenStack 
 with
 
-<img src="images/openstack/newton-logo.png" style="width:15%;">
+<img src="images/openstack/openstack-newton-logo.png" style="width:15%;">
 
 based on
 

@@ -60,27 +60,27 @@ All Core Services plus
     <td><img src="images/openstack/designate-techpreview.svg"></td>
 </tr>
 <tr>
-    <td><img src="images/openstack/fuel-notsupported.svg"></td>
     <td><img src="images/openstack/gnocchi-techpreview.svg"></td>
     <td><img src="images/openstack/heat.svg"></td>
     <td><img src="images/openstack/horizon.svg"></td>
+    <td><img src="images/openstack/ironic-techpreview.svg"></td>
 </tr>
 <tr>
-    <td><img src="images/openstack/ironic-techpreview.svg"></td>
     <td><img src="images/openstack/magnum.svg"></td>
     <td><img src="images/openstack/manila.svg"></td>
     <td><img src="images/openstack/mistral-notsupported.svg"></td>
+    <td><img src="images/openstack/monasca.svg"></td>
 </tr>
 <tr>
-    <td><img src="images/openstack/monasca-techpreview.svg"></td>
     <td><img src="images/openstack/murano-techpreview.svg"></td>
     <td><img src="images/openstack/panko-notsupported.svg"></td>
     <td><img src="images/openstack/rally-notsupported.svg"></td>
+    <td><img src="images/openstack/sahara-techpreview.svg"></td>
 </tr>
 <tr>
-    <td><img src="images/openstack/sahara-techpreview.svg"></td>
     <td><img src="images/openstack/tempest-techpreview.svg"></td>
     <td><img src="images/openstack/trove-techpreview.svg"></td>
+    <td></td>
     <td><img src="images/openstack/legend.svg"></td>
 </tr>
 </table>

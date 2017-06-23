@@ -61,7 +61,7 @@ All Core Services plus
 </tr>
 <tr>
     <td><img src="images/openstack/fuel-notsupported.svg"></td>
-    <td><img src="images/openstack/gnocchi-notsupported.svg"></td>
+    <td><img src="images/openstack/gnocchi-techpreview.svg"></td>
     <td><img src="images/openstack/heat.svg"></td>
     <td><img src="images/openstack/horizon.svg"></td>
 </tr>

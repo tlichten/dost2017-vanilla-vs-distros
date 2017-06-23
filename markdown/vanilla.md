@@ -3,7 +3,7 @@
 
 
 <!-- Slide -->
-Core Services: Higly `mature` and widely adopted.
+Former Core Services: Higly `mature` and widely adopted.
 
 <table>
 <tr>
@@ -20,7 +20,7 @@ Core Services: Higly `mature` and widely adopted.
 
 
 <!-- Slide -->
-Optional Services:
+Other Services:
 
 Lower level of `maturity` and `adoption`!
 
@@ -32,7 +32,7 @@ Lower level of `maturity` and `adoption`!
     <td><img src="images/openstack/designate.svg"></td>
 </tr>
 <tr>
-    <td><img src="images/openstack/fuel.svg"></td>
+    <td><img src="images/openstack/gnocchi.svg"></td>
     <td><img src="images/openstack/heat.svg"></td>
     <td><img src="images/openstack/horizon.svg"></td>
     <td><img src="images/openstack/ironic.svg"></td>
@@ -45,11 +45,18 @@ Lower level of `maturity` and `adoption`!
 </tr>
 <tr>
     <td><img src="images/openstack/murano.svg"></td>
+    <td><img src="images/openstack/panko.svg"></td>
+    <td><img src="images/openstack/rally.svg"></td>
     <td><img src="images/openstack/sahara.svg"></td>
+</tr>
+<tr>
     <td><img src="images/openstack/tempest.svg"></td>
     <td><img src="images/openstack/trove.svg"></td>
+    <td></td>
+    <td></td>
 </tr>
 </table>
+
 Note: may add missing services Zaqar (Messaging Services), Congress (Governance)
 
 
@@ -112,18 +119,14 @@ Note: e.g. upgrade or skip of releases
 
 
 <!-- Slide -->
-Most `mature`:
+Main `features`:
 
 ### RBD
 block storage
 ### RadosGW
-Swift/S3 oject store
-
-
-
-<!-- Slide -->
-Less mature:
-###### CephFS
+Swift/S3 object store
+### CephFS
+Distributed filesystem
 
 
 <!-- Slide -->
@@ -138,13 +141,21 @@ Then choose from <!-- .element class="fragment" data-fragment-index="2"-->
 
 or <!-- .element class="fragment" data-fragment-index="2"-->
 
-`Ansible, Puppet, Chef` <!-- .element class="fragment" data-fragment-index="2"-->
+`Ansible, Puppet, Chef, SaltStack` <!-- .element class="fragment" data-fragment-index="2"-->
 
 
 <!-- Slide -->
 What are the 
 ## Alternatives 
-### to Vanilla ?
+### to pure Vanilla ?
+
+
+<!-- Slide -->
+Select a
+### partner
+to provide 
+#### packages, updates, CI/CD
+(e.g. B1 Systems)
 
 
 <!-- Slide -->

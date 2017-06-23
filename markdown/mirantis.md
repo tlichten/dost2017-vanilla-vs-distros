@@ -7,10 +7,7 @@
 
 
 <!-- Slide -->
-### Mirantis
-### Cloud
-### Platform
-### 1.1
+### Mirantis Cloud Platform 1.1
 with
 
 <img src="images/openstack/openstack-ocata-release-logo-480.png" style="width:15%;">

@@ -11,7 +11,7 @@
 ### OpenStack 
 with
 
-<img src="images/openstack/openstack-newton-logo.png" style="width:15%;">
+<img src="images/openstack/openstack-ocata-release-logo-480.png" style="width:15%;">
 
 based on
 
@@ -63,25 +63,31 @@ All Core Services plus
 
 <table>
 <tr>
+    <td><img src="images/openstack/aodh-notsupported.svg"></td>
     <td><img src="images/openstack/barbican-techpreview.svg"></td>
     <td><img src="images/openstack/ceilometer.svg"></td>
     <td><img src="images/openstack/designate-techpreview.svg"></td>
-    <td><img src="images/openstack/fuel-notsupported.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/gnocchi-notsupported.svg"></td>
     <td><img src="images/openstack/heat-techpreview.svg"></td>
     <td><img src="images/openstack/horizon.svg"></td>
     <td><img src="images/openstack/ironic-techpreview.svg"></td>
-    <td><img src="images/openstack/magnum-techpreview.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/magnum-techpreview.svg"></td>
     <td><img src="images/openstack/manila-techpreview.svg"></td>
     <td><img src="images/openstack/mistral-techpreview.svg"></td>
+    <td><img src="images/openstack/monasca-notsupported.svg"></td>
+</tr>
+<tr>
     <td><img src="images/openstack/murano-techpreview.svg"></td>
+    <td><img src="images/openstack/panko-notsupported.svg"></td>
+    <td><img src="images/openstack/rally-techpreview.svg"></td>
     <td><img src="images/openstack/sahara-techpreview.svg"></td>
 </tr>
 <tr>
-    <td><img src="images/openstack/tempest-notsupported.svg"></td>
+    <td><img src="images/openstack/tempest-techpreview.svg"></td>
     <td><img src="images/openstack/trove-techpreview.svg"></td>
     <td></td>
     <td><img src="images/openstack/legend.svg"></td>
@@ -113,7 +119,8 @@ For versions released with LTS
 For 3 following versions (e.g. N, O, P)
 ###### 3 years
 OpenStack release of next LTS in former version
-Note: quite complex matrix
+
+Note: quite complex matrix. ocata only supported 1.5 years
 
 
 <!-- Slide -->
@@ -143,9 +150,15 @@ based on
 
 ### Jewel
 
-with <!-- .element class="fragment" data-fragment-index="1"-->
+with
 
-`Ubuntu Performance Dashboard` <!-- .element class="fragment" data-fragment-index="1"-->
+`Ubuntu Performance Dashboard` and `OpenAttic`
+
+
+<!-- Slide -->
+###### CephFS
+###### iSCSI
+no Juju charm
 
 
 <!-- Slide -->
@@ -156,6 +169,7 @@ Subscription
 based on:
 
 used capacity
+
 Note: Yearly subscriptions?
 
 

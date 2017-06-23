@@ -8,14 +8,14 @@
 
 <!-- Slide -->
 ###### Red Hat 
-###### OpenStack Platform 9 
+###### OpenStack Platform 11
 with
 
-<img src="images/openstack/openstack-mitaka-logo-sm2.png" style="width:40%;">
+<img src="images/openstack/openstack-ocata-release-logo-480.png" style="width:15%;">
 
 based on
 
-`RHEL 7.2`
+`RHEL 7.3`
 
 
 <!-- Slide -->
@@ -28,7 +28,6 @@ KVM<!-- .element class="fragment" data-fragment-index="1"-->
 
 ESX (vCenter)<!-- .element class="fragment" data-fragment-index="1"-->
 
-Docker (OpenShift)<!-- .element class="fragment" data-fragment-index="1"-->
 Note: Kernel API/ABI compatibility
 
 
@@ -36,11 +35,12 @@ Note: Kernel API/ABI compatibility
 Deployment
 
 ## OSP director
-TripleO and Ansible
+TripleO/Ironic and Ansible (optional)
 
 or
 
 ### Packstack
+for test environments
 
 
 <!-- Slide -->
@@ -50,41 +50,49 @@ All Core Services plus
 
 <table>
 <tr>
-    <td><img src="images/openstack/barbican-techpreview.svg"></td>
+    <td><img src="images/openstack/aodh.svg"></td>
+    <td><img src="images/openstack/barbican-notsupported.svg"></td>
     <td><img src="images/openstack/ceilometer.svg"></td>
     <td><img src="images/openstack/designate-techpreview.svg"></td>
-    <td><img src="images/openstack/fuel-notsupported.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/gnocchi.svg"></td>
     <td><img src="images/openstack/heat.svg"></td>
     <td><img src="images/openstack/horizon.svg"></td>
     <td><img src="images/openstack/ironic.svg"></td>
-    <td><img src="images/openstack/magnum-notsupported.svg"></td>
 </tr>
 <tr>
-    <td><img src="images/openstack/manila-techpreview.svg"></td>
+    <td><img src="images/openstack/magnum-notsupported.svg"></td>
+    <td><img src="images/openstack/manila.svg"></td>
     <td><img src="images/openstack/mistral-notsupported.svg"></td>
+    <td><img src="images/openstack/monasca-notsupported.svg"></td>
+</tr>
+<tr>
     <td><img src="images/openstack/murano-notsupported.svg"></td>
+    <td><img src="images/openstack/panko.svg"></td>
+    <td><img src="images/openstack/rally-techpreview.svg"></td>
     <td><img src="images/openstack/sahara.svg"></td>
 </tr>
 <tr>
-    <td><img src="images/openstack/tempest-notsupported.svg"></td>
-    <td><img src="images/openstack/trove-techpreview.svg"></td>
+    <td><img src="images/openstack/tempest.svg"></td>
+    <td><img src="images/openstack/trove-notsupported.svg"></td>
     <td></td>
     <td><img src="images/openstack/legend.svg"></td>
 </tr>
 </table>
 
+Note: source https://access.redhat.com/articles/1535373
+
 
 <!-- Slide -->
 ### Life Cycle 
-New downstream version with 
+New downstream version with
 
 ###### every upstream release
 
-Next: 
+Next:
 
-Newton, end of 2016, RHEL 7.3
+Pike
 
 
 <!-- Slide -->
@@ -92,16 +100,21 @@ Additionally recommended
 
 ### OSP director
 ### Satellite
-### CloudForms
+### CloudForms (bundled)
 
 
 <!-- Slide -->
 ### Support
-Two phases:
+betwen
 ###### 1 year 
-Full support (till August 2017)
-###### 2 years
-No feature backport, installer updates, new partner additions and certification (till August 2019)
+(phase 2 support, like r11) 
+
+and 
+
+###### up to 5 years
+(LLR/LTS releases like r10)
+
+Note: release 11 is no LTS release, https://access.redhat.com/support/policy/updates/openstack/platform, No feature backport or new partner additions
 
 
 <!-- Slide -->
@@ -125,29 +138,30 @@ special SLAs
 
 
 <!-- Slide -->
-###### Red Hat Ceph Storage 2.0
+###### Red Hat Ceph Storage 2.3
 
 based on
 
 ### Jewel
-RHEL 7.2 or Ubuntu 16.04
-
-Note: v2.1 planed for Q4/2016
+RHEL 7.3 or Ubuntu 16.04
 
 
 <!-- Slide -->
 Deployment via
+### RH Storage Console
+or
 ### Ansible
 or
-### RH Storage Console
+### manually
 
 
 <!-- Slide -->
 ###### CephFS
-
-Tech preview in RHCS 2.0
-
-Support planed for Q1/2017
+Tech preview (Support planed for 3.0)
+###### NFS
+via Object Gateway
+###### iSCSI
+Tech preview
 
 
 <!-- Slide -->
@@ -163,5 +177,5 @@ Also available: <!-- .element class="fragment" data-fragment-index="1"-->
 
 pre-production subscriptions <!-- .element class="fragment" data-fragment-index="1"-->
 
-Note: 64TB subscription included in OSP
+Note: unlimited Pre-Production subscription for fix price under 5000 Dollar.
 

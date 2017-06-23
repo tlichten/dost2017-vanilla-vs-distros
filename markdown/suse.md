@@ -12,7 +12,7 @@ Note: SUSE start
 ###### OpenStack Cloud 7
 with
 
-<img src="images/openstack/newton-logo.png" style="width:15%;">
+<img src="images/openstack/openstack-newton-logo.png" style="width:15%;">
 
 based on
 
@@ -27,11 +27,11 @@ based on
 ### Hypervisor <!-- .element class="fragment" data-fragment-index="1"-->
 KVM, Xen<!-- .element class="fragment" data-fragment-index="1"--> 
 
-Hyper-V, VMWare vSphere<!-- .element class="fragment" data-fragment-index="1"-->
+VMWare vSphere<!-- .element class="fragment" data-fragment-index="1"-->
 
 IBM z/VM <!-- .element class="fragment" data-fragment-index="1"-->
 
-Docker <!-- .element class="fragment" data-fragment-index="1"-->
+Kubernetes Docker via Magnum <!-- .element class="fragment" data-fragment-index="1"-->
 
 Note: Kernel API/ABI compatibility
 
@@ -52,24 +52,29 @@ and
 ### Openstack Support
 
 All Core Services plus
-
 <table>
 <tr>
+    <td><img src="images/openstack/aodh.svg"></td>
     <td><img src="images/openstack/barbican-techpreview.svg"></td>
     <td><img src="images/openstack/ceilometer.svg"></td>
     <td><img src="images/openstack/designate-techpreview.svg"></td>
-    <td><img src="images/openstack/fuel-notsupported.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/gnocchi-techpreview.svg"></td>
     <td><img src="images/openstack/heat.svg"></td>
     <td><img src="images/openstack/horizon.svg"></td>
     <td><img src="images/openstack/ironic-techpreview.svg"></td>
-    <td><img src="images/openstack/magnum.svg"></td>
 </tr>
 <tr>
+    <td><img src="images/openstack/magnum.svg"></td>
     <td><img src="images/openstack/manila.svg"></td>
     <td><img src="images/openstack/mistral-notsupported.svg"></td>
-    <td><img src="images/openstack/murano-notsupported.svg"></td>
+    <td><img src="images/openstack/monasca.svg"></td>
+</tr>
+<tr>
+    <td><img src="images/openstack/murano-techpreview.svg"></td>
+    <td><img src="images/openstack/panko-notsupported.svg"></td>
+    <td><img src="images/openstack/rally-notsupported.svg"></td>
     <td><img src="images/openstack/sahara-techpreview.svg"></td>
 </tr>
 <tr>
@@ -80,6 +85,8 @@ All Core Services plus
 </tr>
 </table>
 
+Note: Monasca will be soon available
+
 
 <!-- Slide -->
 ### Life Cycle 
@@ -89,7 +96,8 @@ New downstream version with
 
 Next: 
  
-P-release
+Pike release
+
 Note: every 2nd may no issue in enterprise setups, you don't switch that easily production.
 
 
@@ -119,12 +127,15 @@ admin node
 
 compute node, per-socket-pair (SLES)
 
+Swift
+
 <br>
 ##### depending on:
  
 12x5 or 24x7
 
 special SLAs
+
 Note: like `scheduled standby`, Support engineer (ASE/PSE/DSE)
 
 
@@ -134,7 +145,7 @@ Note: like `scheduled standby`, Support engineer (ASE/PSE/DSE)
 
 
 <!-- Slide -->
-###### SUSE Enterprise Storage 3
+###### SUSE Enterprise Storage 4
 
 based on
 
@@ -142,23 +153,27 @@ based on
 
 with 
 
+<<<<<<< HEAD
 `Calamari`
+=======
+`OpenATTIC`
+>>>>>>> master
 
 
 <!-- Slide -->
 Deployment via
+### DeepSea/Salt
+or
 ### Crowbar
 or
-### Salt
-(tech preview)
+### ceph-deloy
 
 
 <!-- Slide -->
-## Features
 ###### CephFS
-Tech preview in v3
 ###### iSCSI
-to connect Windows and VMWare
+###### RGW Multi-site Replication
+###### AArch64
 Note: SES4 - CephFS Use Cases and NFS-Ganesha tech preview
 
 
@@ -172,6 +187,7 @@ Basis subscription:
 with 4 OSDs, 3/5 MONs, Admin/Deploy node
 
 priority support included
+
 Note: release every 6 months, support for N and N-1, longer cycles on request
 
 

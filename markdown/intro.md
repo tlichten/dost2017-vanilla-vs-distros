@@ -49,7 +49,7 @@ Which software do you need ?
 ### Storage <!-- .element class="fragment" -->
 Ceph <!-- .element class="fragment" -->
 ### Base OS <!-- .element class="fragment" -->
-Kernel/Hypervisor/... <!-- .element class="fragment" -->
+Kernel/Hypervisor/Container/... <!-- .element class="fragment" -->
 
 
 <!-- Slide -->

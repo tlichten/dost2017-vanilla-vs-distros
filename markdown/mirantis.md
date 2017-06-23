@@ -7,17 +7,23 @@
 
 
 <!-- Slide -->
-###### Mirantis
-###### OpenStack 9
-with 
+### Mirantis
+### Cloud
+### Platform
+### 1.1
+with
 
-<img src="images/openstack/openstack-mitaka-logo-sm2.png" style="width:40%;">
+<img src="images/openstack/openstack-ocata-release-logo-480.png" style="width:15%;">
+
+based on
+
+`Ubuntu 16.04 LTS`
 
 
 <!-- Slide -->
 Mirantis is the
 
-### only 
+### only
 
 distribution
 
@@ -28,37 +34,29 @@ not maintaining an own
 
 <!-- Slide -->
 #### Controller nodes
-Ubuntu 14.04 (next 16.04)
+Ubuntu 16.04 LTS
 
 <br>
 #### Compute nodes <!-- .element class="fragment" data-fragment-index="1"-->
-Ubuntu 14.04 (next 16.04) <!-- .element class="fragment" data-fragment-index="1"-->
-
-RHEL 7.x <!-- .element class="fragment" data-fragment-index="1"-->
-
-Oracle Linux 7.x <!-- .element class="fragment" data-fragment-index="1"-->
-
-SUSE Enterprise Linux <!-- .element class="fragment" data-fragment-index="1"-->
-Note: SUSE will provide also support for RHEL and CentOS
+Ubuntu 16.04 LTS <!-- .element class="fragment" data-fragment-index="1"-->
 
 
 <!-- Slide -->
 ### Kernel
-depends on Base OS
+4.4-based
 
 ### Hypervisor
-KVM 
+KVM
 
-Xen via plugin
-
-VMWare vSphere
+### SDN
+OpenContrail
 
 
 <!-- Slide -->
 Deployment
 
-via 
-### Fuel
+via
+### MCP DriveTrain
 
 
 <!-- Slide -->
@@ -70,8 +68,8 @@ All Core Services plus
 <tr>
     <td><img src="images/openstack/barbican-notsupported.svg"></td>
     <td><img src="images/openstack/ceilometer.svg"></td>
-    <td><img src="images/openstack/designate-notsupported.svg"></td>
-    <td><img src="images/openstack/fuel.svg"></td>
+    <td><img src="images/openstack/designate.svg"></td>
+    <td><img src="images/openstack/fuel-notsupported.svg"></td>
 </tr>
 <tr>
     <td><img src="images/openstack/heat.svg"></td>
@@ -95,27 +93,28 @@ All Core Services plus
 
 
 <!-- Slide -->
-### Life Cycle 
-New downstream version with 
+### Life Cycle
+New downstream version with
 
 ###### every upstream release
 
-within 1-6 months 
+within 1-6 months
 
 <br>
 Next:
 
-MOS 10 (Newton, H1/2017)
-Note: MOS 9.1 (Mitaka Update, Oct. 2016)
+MCP 1.2 (Ocata, Q3-Q4/2017)
 
 
 <!-- Slide -->
-Additionally recommended
+Additionally included
 
 ### Mirantis Stacklight
 and
-### Partner Catalog
-(Billing, LBaaS, DBaaS, SDN, Storage)
+### Mirantis DriveTrain
+and
+### Mirantis Kubernetes
+
 
 
 <!-- Slide -->
@@ -127,9 +126,7 @@ Each release for
 <!-- Slide -->
 ### Pricing
 
-per machine (Ubuntu) 
-
-per-socket-pair (RHEL)
+per machine (Ubuntu)
 
 <br>
 ##### depending on:
@@ -138,7 +135,7 @@ per-socket-pair (RHEL)
 
 24x7
 
-Proactive
+Managed Service
 
 
 <!-- Slide -->
@@ -148,28 +145,27 @@ Proactive
 
 <!-- Slide -->
 Part of
-### MOS
+### MCP
 
 based on <!-- .element class="fragment" data-fragment-index="1"-->
 
-### Hammer <!-- .element class="fragment" data-fragment-index="1"-->
+### Jewel <!-- .element class="fragment" data-fragment-index="1"-->
 and <!-- .element class="fragment" data-fragment-index="1"-->
 ### Ubuntu <!-- .element class="fragment" data-fragment-index="1"-->
 
-Note: MOS v9.1 will stick with this version
 
 
 <!-- Slide -->
 Deployment via
-### Fuel
-plugin
+### Decapod, part of MCP
+
 
 
 <!-- Slide -->
 Only
-### RBD 
+### RBD
 and
-### RadosGW 
+### RadosGW
 supported
 
 
@@ -179,4 +175,4 @@ Subscription
 
 based on:
 
-gross capacity
+per machine
